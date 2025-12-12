@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "面试.md",
+                "file": "职业规划.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "面试"
+              "title": "职业规划"
             }
           }
         ],
@@ -184,12 +184,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "面试.md",
+                "file": "职业规划.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "面试 的出链列表"
+              "title": "职业规划 的出链列表"
             }
           },
           {
@@ -255,14 +255,18 @@
   },
   "active": "2b60207674c69e69",
   "lastOpenFiles": [
-    "K线图.md",
     "AI写代码.md",
+    "职业规划.md",
+    "项目业务量介绍.md",
+    "以太坊发展进程.md",
+    "有用链接.md",
+    "面试.md",
     "黑马头条实战-Day03.md",
+    "K线图.md",
     "阿里面试.md",
     "attachments/面试技术类框架.png",
     "attachments/Pasted image 20251211211311.png",
     "attachments/Pasted image 20251211210521.png",
-    "面试.md",
     "未命名.md",
     "attachments/Pasted image 20251211205755.png",
     "attachments/Pasted image 20251211205745.png",
@@ -272,7 +276,6 @@
     "mysql宕机后会丢失数据吗？.md",
     "POH和POS共识机制.md",
     "1-A private conversation.md",
-    "职业规划.md",
     "常用脚本.md",
     "新建 文本文档.txt",
     "myblog.github.io/币圈基础知识点.md",
@@ -282,12 +285,9 @@
     "myblog.github.io/ubuntu命令.md",
     "8-One good turn deserves another.md",
     "7-Not for jazz.md",
-    "有用链接.md",
     "README.md",
     "vscode常用插件.md",
     "预言机是做什么用的？ 为什么区块链需要预言机？.md",
-    "以太坊发展进程.md",
-    "项目业务量介绍.md",
     "币圈基础知识点.md",
     "attachments/Pasted image 20251210102538.png",
     "attachments/Pasted image 20251208100735.png",
