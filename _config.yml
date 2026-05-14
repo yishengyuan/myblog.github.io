@@ -1,0 +1,24 @@
+title: 我的笔记
+description: 区块链 / Java / Web3 学习笔记
+theme: minima
+
+plugins:
+  - jekyll-relative-links
+  - jekyll-optional-front-matter
+
+relative_links:
+  enabled: true
+  collections: true
+
+readme_index:
+  enabled: false
+
+exclude:
+  - .obsidian
+  - .ignore
+  - attachments
+  - myblog.github.io
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - node_modules
