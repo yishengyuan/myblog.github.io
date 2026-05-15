@@ -1,3 +1,6 @@
+---
+---
+
 # MySQL 事务与 MVCC
 
 > 事务 ACID 是基本盘，**MVCC 是 InnoDB 实现并发读写的核心**。

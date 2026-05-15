@@ -1,3 +1,6 @@
+---
+---
+
 # JMM 与 volatile
 
 > JMM = Java Memory Model，**Java 多线程内存可见性的规范**。

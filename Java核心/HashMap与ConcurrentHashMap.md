@@ -1,3 +1,6 @@
+---
+---
+
 # HashMap 与 ConcurrentHashMap
 
 > Java 集合面试**永远**的考点。关键变化在 JDK 1.7 → 1.8。

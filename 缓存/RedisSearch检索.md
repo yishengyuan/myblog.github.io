@@ -1,3 +1,6 @@
+---
+---
+
 # RedisSearch（Redis 全文检索）
 
 > 用 Redis 作为检索引擎，**替代部分 MySQL 模糊查询和小规模 ES**。

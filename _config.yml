@@ -1,0 +1,17 @@
+title: 我的笔记
+description: 场景实战 / 八股复盘
+theme: jekyll-theme-cayman
+markdown: kramdown
+encoding: UTF-8
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+exclude:
+  - README.md
+  - .obsidian/
+  - .claude/
+  - .ignore
