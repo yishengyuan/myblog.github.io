@@ -5,10 +5,14 @@ title: 笔记索引
 
 # 笔记索引
 
-{% assign sorted_pages = site.pages | sort: 'path' %}
-{% for page in sorted_pages %}
-{%- assign path = page.path -%}
-{%- unless path == 'index.md' or path == 'README.md' or path contains '.github/' or path contains '.obsidian/' or path contains '.claude/' -%}
-- [{{ path | remove: '.md' }}]({{ page.url | relative_url }})
+{% assign notes = site.pages | where_exp: "p", "p.path contains '/'" | sort: 'path' %}
+{% assign groups = notes | group_by_exp: "p", "p.path | split: '/' | first" %}
+{% for group in groups -%}
+{%- unless group.name contains '.' %}
+## {{ group.name }}
+
+{% for page in group.items -%}
+- [{{ page.path | split: '/' | last | remove: '.md' }}]({{ page.url | relative_url }})
+{% endfor %}
 {% endunless -%}
 {% endfor %}
