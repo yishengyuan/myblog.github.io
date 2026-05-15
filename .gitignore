@@ -1,2 +1,5 @@
 
 /.obsidian
+/.claude
+_site/
+.jekyll-cache/
